@@ -1,0 +1,6 @@
+# Cross-Sectional Time Series for Small Area Estimation (SAE)
+
+For some cross-sectional surveys repeated periodically, it may be possible to take advantage of the correlation of the variables of interest over time to improve the efficiency of small area estimators. With the purpose of borrowing strength across time and across areas, many authors such as Pfeffermann and Burck (1990) considered cross-sectional data and time series models in the context of small area estimation. However Rao and Yu (1992, 1994) were the first to propose a model that handles an arbitrary covariance matrix for the sampling errors. Rao and Yu (1992, 1994) proposed an extension to the basic Fay-Herriot model by incorporating area by time random components following an autoregressive process of order 1 (AR(1)). However, this model has a discontinuity at stationarity when the autoregressive parameter equal to 1.
+
+The library of codes in this repository provides a unified approach that removes the stationarity
+assumption of the Rao-Yu and therefore the discontinuity at 1.
